@@ -128,3 +128,7 @@ class Calculator {
     calculator.delete()
     calculator.updateDisplay()
   })
+
+  function logout() {
+      window.location = "welcome.html"
+  }
